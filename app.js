@@ -53,7 +53,7 @@ function removeCursorClass(element){
     element.classList.remove('right')
 }
 
-let locations = ['SYMBIOSIS', 'DREAMS', 'WINDING STAIRS', 'FUTURE WORLD', 'ORGANIC', 'DARK MATTER'];
+let locations = ['SYMBIOSIS', 'DREAMS', 'WINDING STAIRS', 'METAVERSE', 'ORGANIC', 'DARK MATTER'];
 image.style.backgroundImage = 'url(./images/1.jpg)';
 counter.querySelector('p').innerText = '1/6';
 title.querySelector('p').innerText = locations[0];
